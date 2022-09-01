@@ -23,11 +23,14 @@
 .logo {
 }
 
+.search-result, .search{
+    width: 361px;
+}
+
 .search {
     display: flex;
     position: relative;
 
-    width: 361px;
     height: var(--search-height);
     border-radius: var(--search-border-radius);
     padding-left: 16px;
@@ -76,6 +79,16 @@
     color: rgba(22, 24, 35, 0.34);
 }
 
+.search-result{
+    .search-title{
+        padding: 5px 12px;
+        font-size: 1.4rem;
+        color: rgba(22, 24, 35, 0.5);
+    }
+
+}
+
+
 .search-btn {
     width: 52px;
     height: 100%;
@@ -93,3 +106,4 @@
 
 .action {
 }
+
